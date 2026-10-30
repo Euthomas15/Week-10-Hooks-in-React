@@ -6,6 +6,9 @@
 
 .app {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .components-container {

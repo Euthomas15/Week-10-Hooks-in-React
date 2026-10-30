@@ -1,5 +1,6 @@
 import Counter from "./components/Counter";
 import TodoList from "./components/TodoList";
+import ProfileCard from "./components/ProfileCard";
 import "./App.css";
 
 function App() {
@@ -16,8 +17,12 @@ function App() {
       <div className="component-card">
         <TodoList />
         </div>
-    </div>
       </div>
+
+      <div className="component-card">
+        <ProfileCard />
+      </div>
+    </div>
 
   );
 }
