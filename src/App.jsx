@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
 import "./App.css";
 
 function App() {
@@ -11,8 +12,13 @@ function App() {
         <div className="component-card">
           <Counter />
         </div>
-      </div>
+
+      <div className="component-card">
+        <TodoList />
+        </div>
     </div>
+      </div>
+
   );
 }
 

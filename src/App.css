@@ -19,7 +19,8 @@
   padding: 25px;
   border: 1px solid #ddd;
   border-radius: 12px;
-  background: #fff;
+  background: green;
+  color: whitesmoke;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
